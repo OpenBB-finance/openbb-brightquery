@@ -1,0 +1,287 @@
+[
+  {
+    "name": "BrightQuery Company Lookup",
+    "img": "https://media.licdn.com/dms/image/v2/D560BAQEXIQoEOxyqeQ/company-logo_200_200/company-logo_200_200/0/1735581007493/brightquery_logo?e=2147483647&v=beta&t=Pv1hO_QC107DkkFOUAupjNiPeWj-vciYHAjs6EkpJM4",
+    "img_dark": "https://media.licdn.com/dms/image/v2/D560BAQEXIQoEOxyqeQ/company-logo_200_200/company-logo_200_200/0/1735581007493/brightquery_logo?e=2147483647&v=beta&t=Pv1hO_QC107DkkFOUAupjNiPeWj-vciYHAjs6EkpJM4",
+    "img_light": "https://media.licdn.com/dms/image/v2/D560BAQEXIQoEOxyqeQ/company-logo_200_200/company-logo_200_200/0/1735581007493/brightquery_logo?e=2147483647&v=beta&t=Pv1hO_QC107DkkFOUAupjNiPeWj-vciYHAjs6EkpJM4",
+    "description": "Know Your Business - Company firmographic, financial, and organizational data for 84M+ US organizations powered by BrightQuery",
+    "allowCustomization": true,
+    "tabs": {
+      "company_lookup": {
+        "id": "company_lookup",
+        "name": "company_lookup",
+        "layout": [
+          {
+            "i": "company_search",
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 10,
+            "state": {
+              "params": {
+                "company_name": "Anthropic"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              },
+              "columnState": {
+                "default": {
+                  "columnPinning": {
+                    "leftColIds": [
+                      "bq_id"
+                    ],
+                    "rightColIds": []
+                  },
+                  "columnOrder": {
+                    "orderedColIds": [
+                      "bq_id",
+                      "name",
+                      "ticker",
+                      "website",
+                      "ein",
+                      "cik",
+                      "type",
+                      "industry",
+                      "city",
+                      "state",
+                      "revenue",
+                      "employees",
+                      "confidence"
+                    ]
+                  }
+                }
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          },
+          {
+            "i": "BrightQuery Local-company_profile",
+            "x": 0,
+            "y": 10,
+            "w": 20,
+            "h": 15,
+            "state": {
+              "params": {
+                "bq_id": "BQ_100000671067"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          },
+          {
+            "i": "risk_compliance",
+            "x": 20,
+            "y": 10,
+            "w": 20,
+            "h": 15,
+            "state": {
+              "params": {
+                "bq_id": "BQ_100000671067"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          },
+          {
+            "i": "financials_growth",
+            "x": 0,
+            "y": 25,
+            "w": 20,
+            "h": 25,
+            "state": {
+              "params": {
+                "bq_id": "BQ_100000671067"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          },
+          {
+            "i": "funding",
+            "x": 20,
+            "y": 25,
+            "w": 20,
+            "h": 10,
+            "state": {
+              "params": {
+                "bq_id": "BQ_100000671067"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          },
+          {
+            "i": "corporate_structure",
+            "x": 20,
+            "y": 35,
+            "w": 20,
+            "h": 15,
+            "state": {
+              "params": {
+                "bq_id": "BQ_100000671067"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          }
+        ]
+      }
+    },
+    "groups": [
+      {
+        "name": "Group 1",
+        "type": "endpointParam",
+        "paramName": "bq_id",
+        "defaultValue": "BQ_100000671067"
+      },
+      {
+        "name": "Group 2",
+        "type": "param",
+        "paramName": "bq_id",
+        "defaultValue": "BQ_100000671067"
+      }
+    ]
+  },
+  {
+    "name": "BrightQuery People Lookup",
+    "img": "https://media.licdn.com/dms/image/v2/D560BAQEXIQoEOxyqeQ/company-logo_200_200/company-logo_200_200/0/1735581007493/brightquery_logo?e=2147483647&v=beta&t=Pv1hO_QC107DkkFOUAupjNiPeWj-vciYHAjs6EkpJM4",
+    "img_dark": "https://media.licdn.com/dms/image/v2/D560BAQEXIQoEOxyqeQ/company-logo_200_200/company-logo_200_200/0/1735581007493/brightquery_logo?e=2147483647&v=beta&t=Pv1hO_QC107DkkFOUAupjNiPeWj-vciYHAjs6EkpJM4",
+    "img_light": "https://media.licdn.com/dms/image/v2/D560BAQEXIQoEOxyqeQ/company-logo_200_200/company-logo_200_200/0/1735581007493/brightquery_logo?e=2147483647&v=beta&t=Pv1hO_QC107DkkFOUAupjNiPeWj-vciYHAjs6EkpJM4",
+    "description": "Executive search and profile data for professionals across 84M+ US organizations powered by BrightQuery",
+    "allowCustomization": true,
+    "tabs": {
+      "people_lookup": {
+        "id": "people_lookup",
+        "name": "people_lookup",
+        "layout": [
+          {
+            "i": "executive_search",
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 12,
+            "state": {
+              "params": {
+                "executives_name": "Dario Amodei"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              },
+              "columnState": {
+                "default": {
+                  "columnPinning": {
+                    "leftColIds": [
+                      "exec_id"
+                    ],
+                    "rightColIds": []
+                  },
+                  "columnOrder": {
+                    "orderedColIds": [
+                      "exec_id",
+                      "name",
+                      "title",
+                      "company",
+                      "signatory",
+                      "industry",
+                      "company_revenue",
+                      "employees",
+                      "email",
+                      "phone",
+                      "linkedin",
+                      "city",
+                      "state"
+                    ]
+                  }
+                }
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          },
+          {
+            "i": "executive_profile",
+            "x": 0,
+            "y": 12,
+            "w": 20,
+            "h": 20,
+            "state": {
+              "params": {
+                "exec_id": "EX_8880267630930"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          },
+          {
+            "i": "executive_company",
+            "x": 20,
+            "y": 12,
+            "w": 20,
+            "h": 20,
+            "state": {
+              "params": {
+                "exec_id": "EX_8880267630930"
+              },
+              "chartView": {
+                "enabled": false,
+                "chartType": "line"
+              }
+            },
+            "groups": [
+              "Group 2"
+            ]
+          }
+        ]
+      }
+    },
+    "groups": [
+      {
+        "name": "Group 1",
+        "type": "endpointParam",
+        "paramName": "exec_id",
+        "defaultValue": "EX_8880269756997"
+      },
+      {
+        "name": "Group 2",
+        "type": "param",
+        "paramName": "exec_id",
+        "defaultValue": "EX_8880267630930"
+      }
+    ]
+  }
+]
